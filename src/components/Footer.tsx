@@ -1,9 +1,9 @@
-import { FooterStyles } from "../styles/FooterStyles";
+import { FooterStyles } from "../styles";
 
 export default function Footer() {
   return(
     <FooterStyles>
-      Footer
+      <p>Footer</p>
     </FooterStyles>
-  )
+  );
 }

@@ -1,13 +1,19 @@
 import { ReactNode } from "react";
+import { LayoutStyle, MainStyles } from "../styles";
+import Footer from "./Footer";
+import Header from "./Header";
 import NavBar from "./NavBar";
 
 export default function Layout(props: { children : ReactNode}) {
   const { children } = props;
   return (
-    <div>
+    <LayoutStyle>
+      <Header />
       <NavBar />
-      <h1>FOi</h1>
-      {children}
-    </div>
+      <MainStyles>
+        {children}
+      </MainStyles>
+      <Footer /> 
+    </LayoutStyle>
   );
 }

@@ -1,20 +1,11 @@
-import { ReactElement } from 'react';
-import Layout from '../components/Layout';
-import Title from '../styles/Title';
+import { NextPage } from 'next';
+import { Title } from '../styles';
 
-const Home = () => {
+const Home: NextPage = () => {
   return (
     <div>
       <Title>Title</Title>
     </div>
-  );
-};
-
-Home.getLayout = function getLayout(page: ReactElement) {
-  return (
-    <Layout>
-      {page}
-    </Layout>
   );
 };
 
