@@ -5,7 +5,7 @@ display: flex;
 flex-direction: column;
 justify-content: space-around;
 width: 100%;
-height: 400px;
+height: 450px;
 border: solid 2px rgba(200, 200, 200, 0.5);;
 padding: 20px;
 cursor: pointer;
@@ -20,6 +20,7 @@ transition-duration: 0.5s;
 
 export const TitleStyle = styled.h3`
 text-align: center;
+font-size: 15px;
 `;
 
 export const ParagraphStyle = styled.p`

@@ -3,8 +3,8 @@ const sliderSettings = {
   dotsClass: "slick-dots",
   infinite: true,
   speed: 500,
-  slidesToShow: 5,
-  slidesToScroll: 5,
+  slidesToShow: 4,
+  slidesToScroll: 4,
 };
 
 export default sliderSettings;
