@@ -10,11 +10,11 @@ export async function getStaticProps() {
   return { props: { products } };
 }
 
-export default function Computers({ products }: ProductsProps) {
+export default function Notebooks({ products }: ProductsProps) {
   return (
     <>
       <h1>Computadores</h1>
-      <Products products={products} />
+      <Products products={products} path="notebooks"/>
     </>
   );
 }

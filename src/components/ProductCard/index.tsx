@@ -4,9 +4,9 @@ import Image from "next/image";
 import Link from "next/link";
 
 
-export default function ProductCard({ product }: ProductProps) {
+export default function ProductCard({ product, path }: ProductProps) {
   return (
-    <Link href={`/computers/${product.id}`}>
+    <Link href={`/${path}/${product.id}`}>
       <a>
         <CardStyles>
           <Image src={product.thumbnail} alt="informatic" layout="responsive" width={200} height={200} />

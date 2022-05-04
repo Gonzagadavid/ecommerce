@@ -21,10 +21,12 @@ export type Product = {
 
 export type ProductsProps = {
   products: Product[],
+  path: string,
 }
 
 export type ProductProps = {
   product: Product,
+  path: string,
 }
 
 export type ProductDetails = {
