@@ -1,0 +1,12 @@
+import { SlickArrow } from "../../styles";
+
+export default function SamplePrevArrow(props: { className: string, style: object, onClick: () => void }) {
+  const { className, style, onClick } = props;
+  return (
+    <SlickArrow
+      className={className}
+      style={{ ...style  }}
+      onClick={onClick}
+    />
+  );
+}

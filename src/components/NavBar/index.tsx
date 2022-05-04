@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { NavStyles } from "../styles";
+import { NavStyles } from "./style";
 
 export default function NavBar() {
   return (

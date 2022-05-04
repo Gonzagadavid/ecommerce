@@ -13,7 +13,7 @@ export async function getStaticProps() {
 export default function Computers({ products }: ProductsProps) {
   return (
     <>
-      <h1>Computers</h1>
+      <h1>Computadores</h1>
       <Products products={products} />
     </>
   );
