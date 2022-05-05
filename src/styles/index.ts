@@ -9,6 +9,15 @@ div {
 }
 `;
 
+export const StyledDetailsSlider = styled(Slider)`
+div {
+  display: flex;
+  justify-content: center;
+  /* width: 100%; */
+  margin: 10px;
+}
+`;
+
 export const SlickArrow = styled.div`
 :hover, ::before, ::after {
   color: black;

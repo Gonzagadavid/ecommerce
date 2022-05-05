@@ -27,6 +27,72 @@ export const hardwares = [
   {
     title: 'Fonte',
     image: '/images/fonte.jpeg',
-    path: '/hardwares/sources'
+    path: '/hardwares/supply'
+  },
+];
+
+export const peripherals = [
+  {
+    title: 'Monitor',
+    image: '/images/monitor.jpeg',
+    path: '/peripherals/monitors',
+  },
+  {
+    title: 'Teclado',
+    image: '/images/teclado.jpeg',
+    path: '/peripherals/keyboards',
+  },
+  {
+    title: 'Mouse',
+    image: '/images/mouse.jpeg',
+    path: '/peripherals/mouses',
+  },
+  {
+    title: 'Headset',
+    image: '/images/headset.jpeg',
+    path: '/peripherals/headsets',
+  },
+  {
+    title: 'Webcam',
+    image: '/images/webcam.jpeg',
+    path: '/peripherals/webcams',
+  },
+  {
+    title: 'Gabinete',
+    image: '/images/gabinete.jpeg',
+    path: '/peripherals/cabinets',
+  },
+];
+
+export const accessories = [
+  {
+    title: 'Cadeira',
+    image: '/images/cadeira.jpeg',
+    path: '/accessories/chairs',
+  },
+  {
+    title: 'Mochila',
+    image: '/images/mochila.jpeg',
+    path: '/accessories/bags',
+  },
+  {
+    title: 'Base',
+    image: '/images/base.jpeg',
+    path: '/accessories/bases',
+  },
+  {
+    title: 'Mesa',
+    image: '/images/mesa.jpeg',
+    path: '/accessories/tables',
+  },
+  {
+    title: 'Impressora',
+    image: '/images/impressora.jpeg',
+    path: '/accessories/printers',
+  },
+  {
+    title: 'Controle',
+    image: '/images/controle.jpeg',
+    path: '/accessories/controllers',
   },
 ];

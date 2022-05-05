@@ -1,5 +1,8 @@
+import Menu from "../../components/Menu";
+import { peripherals } from "../../constants/menus";
+
 export default function Peripherals() {
   return(
-    <h1>Perifericos</h1>
+    <Menu items={peripherals} />
   );
 }

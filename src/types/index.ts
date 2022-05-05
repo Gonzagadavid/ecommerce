@@ -31,6 +31,8 @@ export type ProductProps = {
   path: string,
 }
 
+export type Picture = { url: string, id: string }[]
+
 export type ProductDetails = {
   id: string, 
   title: string, 
@@ -39,7 +41,7 @@ export type ProductDetails = {
   available_quantity: number, 
   condition: string, 
   thumbnail: string, 
-  pictures: string[], 
+  pictures: Picture, 
   warranty: string,
 }
 

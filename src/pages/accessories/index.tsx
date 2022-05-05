@@ -1,5 +1,8 @@
+import Menu from "../../components/Menu";
+import { accessories } from "../../constants/menus";
+
 export default function Accessories() {
   return(
-    <h1>Acessorios</h1>
+    <Menu items={accessories} />
   );
 }
