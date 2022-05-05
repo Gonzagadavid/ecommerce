@@ -1,5 +1,8 @@
+import Menu from "../../components/Menu";
+import { hardwares } from "../../constants/menus";
+
 export default function Hardwares() {
   return (
-    <h1>Hardwares</h1>
+    <Menu items={hardwares} />
   );
 }

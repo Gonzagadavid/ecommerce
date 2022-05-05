@@ -5,6 +5,7 @@ const getProducts = (productList: ProductReq[]) => {
     id: product.id,
     title: product.title,
     thumbnail: product.thumbnail.replace('I.jpg', 'O.jpg'),
+    condition: product.condition,
     prices: product.prices.prices
       .map((price: Price) => (
         { 

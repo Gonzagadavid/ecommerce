@@ -9,6 +9,7 @@ export type ProductReq = {
   title: string,
   prices: { prices: Price[]},
   thumbnail: string,
+  condition: string,
 }
 
 export type Product = {
@@ -16,6 +17,7 @@ export type Product = {
   title: string,
   prices: Price[],
   thumbnail: string,
+  condition: string,
 }
 
 
@@ -44,3 +46,11 @@ export type ProductDetails = {
 export type ProductDetailsProps = {
   [key: string]: ProductDetails
 }
+
+export type Item = {
+  title: string,
+  image: string,
+  path: string,
+}
+
+export type MenuProps = { items:  Item[]}
