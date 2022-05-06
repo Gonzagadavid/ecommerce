@@ -15,6 +15,6 @@ export async function getStaticProps() {
 
 export default function Chairs({ products }: ProductsProps) {
   return (
-    <Products products={products} path="chairs" />
+    <Products products={products} />
   );
 }
