@@ -15,6 +15,6 @@ export async function getStaticProps() {
 
 export default function Headsets({ products }: ProductsProps) {
   return (
-    <Products products={products} path="headsets" />
+    <Products products={products} />
   );
 }

@@ -93,6 +93,6 @@ export const accessories = [
   {
     title: 'Controle',
     image: '/images/controle.jpeg',
-    path: '/accessories/controllers',
+    path: '/accessories/controls',
   },
 ];

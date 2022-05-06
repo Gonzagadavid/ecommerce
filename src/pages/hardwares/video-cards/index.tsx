@@ -15,6 +15,6 @@ export async function getStaticProps() {
 
 export default function VideoCards({ products }: ProductsProps) {
   return (
-    <Products products={products} path="video-cards" />
+    <Products products={products} />
   );
 }

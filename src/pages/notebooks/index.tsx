@@ -14,7 +14,7 @@ export default function Notebooks({ products }: ProductsProps) {
   return (
     <>
       <h1>Computadores</h1>
-      <Products products={products} path="notebooks"/>
+      <Products products={products} />
     </>
   );
 }

@@ -15,6 +15,6 @@ export async function getStaticProps() {
 
 export default function Webcams({ products }: ProductsProps) {
   return (
-    <Products products={products} path="webcams" />
+    <Products products={products} />
   );
 }

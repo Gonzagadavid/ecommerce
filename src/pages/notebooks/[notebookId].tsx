@@ -22,7 +22,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
   return { paths, fallback: false };
 };
 
-export default function NotebookId ({ notebook } : ProductDetailsProps) {
+export default function NotebookId({ notebook } : ProductDetailsProps) {
   return (
     <ProductsDetails product={ notebook } />
   );

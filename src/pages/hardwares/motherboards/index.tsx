@@ -15,6 +15,6 @@ export async function getStaticProps() {
 
 export default function Motherboards({ products }:ProductsProps) {
   return(
-    < Products products={products} path="motherboards" />
+    < Products products={products} />
   );
 }

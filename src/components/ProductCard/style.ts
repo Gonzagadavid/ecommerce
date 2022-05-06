@@ -4,6 +4,7 @@ export const CardStyles = styled.section`
 display: flex;
 flex-direction: column;
 justify-content: space-around;
+align-items: center;
 width: 100%;
 height: 450px;
 border: solid 2px rgba(200, 200, 200, 0.5);;

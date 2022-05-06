@@ -15,6 +15,6 @@ export async function getStaticProps() {
 
 export default function Processors({ products }: ProductsProps) {
   return (
-    <Products products={products} path="processors" />
+    <Products products={products} />
   );
 }

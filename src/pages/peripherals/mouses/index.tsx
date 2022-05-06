@@ -15,6 +15,6 @@ export async function getStaticProps() {
 
 export default function Mouses({ products }: ProductsProps) {
   return (
-    <Products products={products} path="mouses" />
+    <Products products={products} />
   );
 }

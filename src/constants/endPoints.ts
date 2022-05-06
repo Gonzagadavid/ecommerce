@@ -26,5 +26,18 @@ export const allMonitors = 'https://api.mercadolibre.com/sites/MLB/search?q=moni
 
 export const allWebcams = 'https://api.mercadolibre.com/sites/MLB/search?q=webcam';
 
+export const allBags = 'https://api.mercadolibre.com/sites/MLB/search?q=bolsa%20para%20computador';
+
+export const allControls = 'https://api.mercadolibre.com/sites/MLB/search?q=controles%20de%20computador';
+
+export const allPrinters = 'https://api.mercadolibre.com/sites/MLB/search?q=impressora%20de%20computador';
+
+export const allTables = 'https://api.mercadolibre.com/sites/MLB/search?q=mesa%20gamer';
+
+export const allChairs = 'https://api.mercadolibre.com/sites/MLB/search?q=cadeira%20gamer';
+
+export const allBases = 'https://api.mercadolibre.com/sites/MLB/search?q=base%20de%20notebook';
+
+
 
 export const productById = (id: string) => `https://api.mercadolibre.com/items/${id}`;

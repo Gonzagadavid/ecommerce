@@ -15,6 +15,6 @@ export async function getStaticProps() {
 
 export default function Monitors({ products }: ProductsProps) {
   return (
-    <Products products={products} path="monitors" />
+    <Products products={products} />
   );
 }

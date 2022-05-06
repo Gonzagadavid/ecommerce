@@ -2,14 +2,16 @@ import { CardStyles, ParagraphStyle, TitleStyle } from "./style";
 import { ProductProps } from "../../types";
 import Image from "next/image";
 import Link from "next/link";
+import { useRouter } from "next/router";
 
 
-export default function ProductCard({ product, path }: ProductProps) {
+export default function ProductCard({ product }: ProductProps) {
+  const router = useRouter();
   return (
-    <Link href={`/${path}/${product.id}`}>
+    <Link href={`${router.pathname}/${product.id}`}>
       <a>
         <CardStyles>
-          <Image src={product.thumbnail} alt="informatic" layout="responsive" width={200} height={200} />
+          <Image src={product.thumbnail} alt="informatic" layout="fixed" width={200} height={200} />
           <TitleStyle>{product.title}</TitleStyle>
           <ParagraphStyle>{product.prices[0].amount.toLocaleString('pt-BR', { currency: 'BRL' })}</ParagraphStyle>
         </CardStyles>
