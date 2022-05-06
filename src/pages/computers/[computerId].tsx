@@ -1,5 +1,6 @@
 import axios from "axios";
 import { GetStaticPaths, GetStaticProps } from "next";
+import ProductsDetails from "../../components/ProductDetails";
 import { allComputers, productById } from "../../constants/endPoints";
 import getProductDetails from "../../functions/getProductDetails";
 import { ParamsQuery } from "../../interfaces";
@@ -23,6 +24,6 @@ export const getStaticPaths: GetStaticPaths = async () => {
 
 export default function ComputerId ({ computer } : ProductDetailsProps) {
   return (
-    <h1>{computer.id}</h1>
+    <ProductsDetails product={computer} />
   );
 }
