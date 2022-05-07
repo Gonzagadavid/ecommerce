@@ -29,7 +29,6 @@ transition-property: color;
 }
 
 :hover:after {
-  color: red;
   transform: scaleX(1);
   transform-origin:  0% 100%; 
 }
@@ -37,7 +36,6 @@ transition-property: color;
 :hover {
   color: red;
   transition-duration: 250ms;
-  
 }
 
 ${({ selected }: {selected: boolean}) => selected && 'color: red; border-bottom: red solid 2px;'}

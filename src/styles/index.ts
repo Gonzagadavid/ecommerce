@@ -5,7 +5,7 @@ export const StyledSlider = styled(Slider)`
 div {
   display: flex;
   justify-content: center;
-  margin: 10px;
+  gap: 0 15px;
 }
 `;
 
@@ -13,7 +13,6 @@ export const StyledDetailsSlider = styled(Slider)`
 div {
   display: flex;
   justify-content: center;
-  /* width: 100%; */
   margin: 10px;
 }
 `;

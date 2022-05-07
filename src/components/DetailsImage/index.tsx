@@ -7,7 +7,7 @@ import SamplePrevArrow from "../SamplePrevArrow";
 
 export default function DetailsImage({ pictures }: { pictures: Picture }){
   const settings = {
-    customPaging: (i: number) => <a><Image src={pictures[i].url} layout="responsive" width={100} height={100} alt="moster"/></a>,
+    customPaging: (i: number) => <a><Image src={pictures[i].url} layout="fixed" width={20} height={20} alt="moster"/></a>,
     ...sliderDetailsSettings,  
     nextArrow: <SampleNextArrow className="string" style={{}} onClick={() =>{}} />,
     prevArrow: <SamplePrevArrow className="string" style={{}} onClick={() =>{}} />,
