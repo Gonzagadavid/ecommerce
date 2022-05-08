@@ -1,3 +1,5 @@
+import { Dispatch, FormEvent, SetStateAction } from "react";
+
 export type Price = {
   type: string,
   amount: number,
@@ -54,3 +56,9 @@ export type Item = {
 }
 
 export type MenuProps = { items:  Item[]}
+
+export type DefaultState = {
+  address: { [key: string]: string},
+  setCep: (event: FormEvent<Element>) => void,
+  cep: string,
+}

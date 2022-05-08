@@ -17,10 +17,6 @@ background-color: white;
 position: relative;
 z-index: 3;
 ${({ view }: {view: boolean}) => !view && 'border: solid 2px red; border-bottom: solid 2px black;'}
-/* :hover {
-  border: solid 2px red;
-  border-bottom: solid 2px black;
-} */
 `;
 
 export const TitleStyle = styled.h3`

@@ -5,12 +5,13 @@
     "plugin:@typescript-eslint/recommended"
   ],
   "rules": {
-    // I suggest you add those two rules:
-    "@typescript-eslint/no-unused-vars": "error",
+    "@typescript-eslint/no-unused-vars": ["error", { "argsIgnorePattern": "^_", "ignoreRestSiblings": true }],
     "@typescript-eslint/no-explicit-any": "error",
     "indent": ["error", 2],
     "semi": [2, "always", { "omitLastInOneLineBlock": true}],
     "object-curly-spacing": [2, "always"],
-    "@typescript-eslint/no-empty-function": "off"
+    "@typescript-eslint/no-empty-function": "off",
+    "react/jsx-props-no-spreading": "off",
+    "no-unused-vars": ["error", { "argsIgnorePattern": "^_", "ignoreRestSiblings": true }]
   }
 }
