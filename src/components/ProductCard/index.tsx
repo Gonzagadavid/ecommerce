@@ -16,7 +16,7 @@ export default function ProductCard({ product }: ProductProps) {
           <CardStyles view={view}>
             <Image src={product.thumbnail} alt="informatic" layout="fixed" width={200} height={200} />
             <TitleStyle>{product.title}</TitleStyle>
-            <ParagraphStyle>{product.prices[0].amount.toLocaleString('pt-BR', { currency: 'BRL' })}</ParagraphStyle>
+            <ParagraphStyle>{`R$ ${product.prices[0].amount.toFixed(2)}`}</ParagraphStyle>
           </CardStyles>
         </a>
       </Link>

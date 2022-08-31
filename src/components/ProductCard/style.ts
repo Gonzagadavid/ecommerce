@@ -12,7 +12,7 @@ padding: 20px;
 cursor: pointer;
 transition-property: border;
 transition: cubic-bezier(0.95, 0.05, 0.795, 0.035);
-transition-duration: 0.5s;
+transition-duration: 0.2s;
 background-color: white;
 position: relative;
 z-index: 3;
