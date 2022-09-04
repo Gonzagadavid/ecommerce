@@ -9,7 +9,7 @@ import SampleNextArrow from "../SampleNextArrow";
 import SamplePrevArrow from "../SamplePrevArrow";
 import sliderSettings from "../../constants/sliderSettings";
 
-export default function Products({ products, path }: ProductsProps) {
+export default function Products({ products }: ProductsProps) {
   const settings = {
     ...sliderSettings,  
     nextArrow: <SampleNextArrow className="string" style={{}} onClick={() =>{}} />,
@@ -24,7 +24,7 @@ export default function Products({ products, path }: ProductsProps) {
       </Head>
       <StyledSlider {...settings}>
         {products.map((product) => (
-          <ProductCard key={product.id} product={product} path={path}/> 
+          <ProductCard key={product.id} product={product} /> 
         ))}
       </StyledSlider>
     </ProductsStyles>
