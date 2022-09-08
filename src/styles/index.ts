@@ -49,6 +49,10 @@ width: 100%;
 height: 100%;
 height: 60%;
 flex-direction: column;
+font-size: 1.8rem;
+line-height: 2;
+color: #009;
+margin-top: 20px;
 `;
 
 export const ContainerFlexRow =  styled.div`
@@ -65,4 +69,8 @@ background-color: black;
 color: white;
 font-size: 1.5em;
 border-radius: 10px;
+cursor: pointer;
+:disabled {
+  background-color: #ccc;
+}
 `;
