@@ -4,7 +4,7 @@ import InputText from "../../components/InputText";
 import Context from "../../context";
 import checkField from "../../functions/checkFields";
 import useFormInput from "../../hooks/useFormInput";
-import { ContainerFlexRow, FormContainer, InfoContainer, RegisterPage, Title } from "../../styles";
+import { ContainerFlexRow, FormContainer, InfoContainer, RegisterButton, RegisterPage, Title } from "../../styles";
 
 export default function Register() {
   const { cep, setCep, address } = useContext(Context);
@@ -34,7 +34,7 @@ export default function Register() {
           { infoList }
         </InfoContainer>
       </ContainerFlexRow>
-      <button disabled={!fieldsCompleted}>Cadastrar</button>
+      <RegisterButton disabled={!fieldsCompleted}>Cadastrar</RegisterButton>
     </RegisterPage>
   );
 }

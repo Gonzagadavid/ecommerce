@@ -59,3 +59,10 @@ height: 100%;
 margin-top: 60px;
 `;
 
+export const RegisterButton = styled.button`
+padding: 10px 20px;
+background-color: black;
+color: white;
+font-size: 1.5em;
+border-radius: 10px;
+`;
